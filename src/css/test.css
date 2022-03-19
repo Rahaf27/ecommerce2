@@ -1,0 +1,66 @@
+.custom-form-control, .custom-btn {
+  border: 1px solid #EBEBEB;
+  box-shadow: none;
+  border-radius: 2px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 6px 16px 7px 16px;
+  color: #868686;
+}
+
+.custom-btn:hover {
+  background-color: #d4d4d4;
+  border: 1px solid #8c8c8c;
+  color: #b86d07;
+}
+
+.custom-btn-primary {
+  color: #F8Ad47;
+  border-color: #F8Ad47;
+  background-color: transparent;
+}
+
+.custom-btn-primary:hover,
+.custom-btn-primary:active,
+.custom-btn-primary:focus,
+.custom-btn-primary:active:focus,
+.custom-btn-primary:active:hover {
+  color: #b86d07;
+  border-color: #b86d07;
+  background-color: transparent;
+}
+
+.custom-btn-primary2 {
+  color: #000;
+  background-color: #b86d07;
+  border-color: #b86d07;
+}
+
+.custom-btn-primary2:hover,
+.custom-btn-primary2:active,
+.custom-btn-primary2:focus,
+.custom-btn-primary2:active:focus,
+.custom-btn-primary2:active:hover {
+  background-color: #b86d07;
+  border-color: #b86d07;
+  color: #000;
+}
+
+.custom-btn-danger {
+  color: #ff5a5f;
+  border-color: #ff5a5f;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.custom-btn-danger:hover,
+.custom-btn-danger:active,
+.custom-btn-danger:focus,
+.custom-btn-danger:active:focus,
+.custom-btn-danger:active:hover {
+  color: #da0007;
+  border-color: #da0007;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=test.css.map */

@@ -1,0 +1,49 @@
+@import './variables';
+@import './custom-table';
+@import './mixin';
+@import './custom.scss';
+
+.custom-form-control, .custom-btn  {
+        border: 1px solid #EBEBEB;
+        box-shadow: none;
+        border-radius: 2px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        padding: 6px 16px 7px 16px;
+        color: #868686;
+}
+
+.custom-btn:hover {
+        background-color: #d4d4d4;
+        border: 1px solid #8c8c8c;
+        color: $btn-primary-color-dark;
+}
+
+
+.custom-btn-primary {
+     @include button-style($brand-primary);
+}
+
+
+
+.custom-btn-primary2 {
+        color: #000;
+        background-color: $btn-primary-color-dark;
+        border-color: $btn-primary-color-dark;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus,
+    &:active:hover {
+        background-color: $btn-primary-color-dark;
+        border-color: $btn-primary-color-dark;
+        color: #000;
+    }
+}
+
+
+
+.custom-btn-danger {
+    @include button-style($barnd-danger);
+}
