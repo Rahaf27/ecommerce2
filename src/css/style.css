@@ -1134,4 +1134,9 @@ MEDIA QUERY
         padding-left: 15px;
         padding: 15px;
     }
+
+    #carousel-featured .product-details {
+        width: 350px;
+        margin-bottom: 15px;
+    }
 }
